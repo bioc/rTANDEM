@@ -575,11 +575,11 @@ SEXP tandem(SEXP param, SEXP peptide, SEXP saps, SEXP mods, SEXP spectrum) // rT
 	while(a < (unsigned long)(dCount))	{
 		if(a == 1)	{
 //			cout << "\tfrom " << a+1;
-			Rprintf("\tfrom %s", a+1);
+			Rprintf("\tfrom %lu", a+1);
 		}
 		else	{
 //			cout << a+1;
-			Rprintf("%s", a+1);
+			Rprintf("%lu", a+1);
 		}
 		//cout.flush();
 		if(!pProcess[0]->add_spectra(pProcess[a]->m_vSpectra))	{

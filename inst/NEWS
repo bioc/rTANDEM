@@ -1,2 +1,8 @@
+2013-07-26
+Corrected a bug that could lead to incorrect results when
+using multiple fasta files for a same taxon.
+Corrected a bug that crashed R when using multi-
+threading.
+
 2012-11-22
 First submission of rTANDEM to Bioconductor.
