@@ -1,7 +1,7 @@
 Package: rTANDEM
 Type: Package
 Title: Interfaces the tandem protein identification algorithm in R
-Version: 1.29.0
+Version: 1.29.1
 Date: 2018-04-24
 SystemRequirements: rTANDEM uses expat and pthread libraries. See the
         README file for details.
@@ -20,3 +20,4 @@ Imports: methods
 Depends: XML, Rcpp, data.table (>= 1.8.8)
 Suggests: biomaRt
 LinkingTo: Rcpp
+PackageStatus: Deprecated
